@@ -1,16 +1,60 @@
- HEAD
-# React + Vite
+# 🛍️ E-Commerce Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and fully responsive e-commerce frontend project built using **React**, **Tailwind CSS**, and **Firebase Authentication**. The project uses the **Platzi Fake Store API** to fetch product data and includes features like category filtering, product search, cart management, dark mode, and order tracking.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🛒 Add to Cart functionality
+- 🔍 Search and category filter
+- 🧑‍💼 Login/Signup with Firebase
+- 📦 My Orders page (shows purchased items after checkout)
+- ☀️🌙 Dark mode toggle
+- 📱 Fully responsive for mobile and desktop
+- ⚡ Built with Vite + Tailwind CSS for fast performance
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
 
-# E-Commerce-Clone
- dff9aaf7edb919154e040a81ae12a9d7fdc12d99
+## 📁 Folder Structure
+/src
+├── components # Header, ProductCard, DarkMode etc.
+├── pages # Home, ProductDetail, Cart, Orders, Login, Signup
+├── context # Auth and Cart context
+├── Firebase # Firebase config file
+└── App.jsx # Main application routes
+
+
+
+---
+
+## 🔧 Tech Stack
+
+- **Frontend:** React, Tailwind CSS, Vite
+- **Auth:** Firebase Authentication
+- **API:** Platzi Fake Store API
+- **Hosting:** GitHub + Vercel
+
+---
+
+## 🔐 Login Credentials (for testing)
+
+You can sign up using your email and password. Firebase handles user authentication securely.
+
+---
+
+
+## 📦 Installation & Setup
+
+```bash
+git clone https://github.com/ManyaS10/E-Commerce-Clone.git
+cd E-Commerce-Clone
+npm install
+npm run dev
+
+🙋‍♀️ About Me
+This project is a part of my frontend learning journey. I tried to implement real e-commerce functionalities using React, Tailwind CSS, and Firebase.
+
+📬 Feedback
+If you have any suggestions or feedback, feel free to raise an issue or reach out to me!
+@sinhamanya10@gmail.com
