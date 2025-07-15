@@ -47,13 +47,14 @@ You can sign up using your email and password. Firebase handles user authenticat
 ## 📦 Installation & Setup
 
 ```bash
-git clone https://github.com/ManyaS10/E-Commerce-Clone.git
+[Click here to visit the live site](git clone https://github.com/ManyaS10/E-Commerce-Clone.git)
 cd E-Commerce-Clone
 npm install
 npm run dev
 
 🌍 Live Demo
-https://e-commerce-clone-f69w-git-main-manyas-projects-0de017c3.vercel.app/
+[Click here to visit the live site](https://e-commerce-clone-f69w-q8n9z4ykj-manyas-projects-0de017c3.vercel.app/)
+
 
 🙋‍♀️ About Me
 This project is a part of my frontend learning journey. I tried to implement real e-commerce functionalities using React, Tailwind CSS, and Firebase.
