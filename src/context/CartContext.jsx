@@ -4,7 +4,7 @@ const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);
-  const [orders, setOrders] = useState([]); // ✅ Step 1: Add state for orders
+  const [orders, setOrders] = useState([]); 
 
   const addToCart = (item) => {
     setCartItems((prev) => [...prev, item]);
@@ -15,8 +15,8 @@ export const CartProvider = ({ children }) => {
   };
 
   const checkout = () => {
-    setOrders((prev) => [...prev, ...cartItems]); // ✅ Step 2: Move cart items to orders
-    setCartItems([]); // ✅ Clear cart after checkout
+    setOrders((prev) => [...prev, ...cartItems]); 
+    setCartItems([]); 
   };
 
   return (
@@ -25,8 +25,8 @@ export const CartProvider = ({ children }) => {
         cartItems,
         addToCart,
         removeFromCart,
-        orders, // ✅ Step 3: Provide orders to consumers
-        checkout, // ✅ Step 4: Provide checkout function
+        orders, 
+        checkout, 
       }}
     >
       {children}

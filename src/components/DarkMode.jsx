@@ -1,16 +1,13 @@
 import { useEffect, useState } from "react";
 
-/**
- * Simple dark‑mode toggle.
- * Drop <DarkMode /> anywhere in your header / navbar.
- */
+
 function DarkMode() {
   const [enabled, setEnabled] = useState(() => {
-    // load saved preference (if any)
+   
     return localStorage.getItem("theme") === "dark";
   });
 
-  // apply or remove the `dark` class on <html>
+  
   useEffect(() => {
     const root = document.documentElement;
     if (enabled) {

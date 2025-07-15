@@ -27,12 +27,12 @@ function Header() {
   return (
     <nav className="bg-white dark:bg-gray-900 shadow sticky top-0 z-50 text-gray-800 dark:text-white">
       <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
-        {/* Logo */}
+    
         <Link to="/" className="text-2xl font-bold text-blue-600 dark:text-blue-400">
           ShopEasy
         </Link>
 
-        {/* Search Bar */}
+       
         <form onSubmit={handleSearchSubmit} className="flex gap-2 w-full md:w-auto">
           <input
             type="text"
@@ -49,17 +49,16 @@ function Header() {
           </button>
         </form>
 
-        {/* Right Side: Cart, User, Dark Mode */}
         <div className="flex items-center space-x-4">
-          {/* Cart Icon */}
+         
           <Link to="/cart" className="hover:text-blue-600 text-2xl transition">
             <AiOutlineShoppingCart />
           </Link>
 
-          {/* Dark Mode Toggle 🌙 */}
+         
           <DarkMode />
 
-          {/* Login or Email */}
+          
           {user ? (
             <span className="text-sm text-green-500">{user.email}</span>
           ) : (
@@ -70,7 +69,7 @@ function Header() {
         </div>
       </div>
 
-      {/* Categories */}
+     
       <div className="bg-gray-100 dark:bg-gray-800 py-2 px-4 flex gap-4 overflow-x-auto">
         {categories.map((cat) => (
           <button

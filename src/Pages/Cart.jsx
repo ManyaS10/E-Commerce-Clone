@@ -3,7 +3,7 @@ import { useCart } from "../context/CartContext";
 import { useAuth } from "../context/AuthContext";
 
 function Cart() {
-  const { cartItems, removeFromCart, checkout } = useCart(); // ✅ Added checkout
+  const { cartItems, removeFromCart, checkout } = useCart(); 
   const { user } = useAuth();
   const navigate = useNavigate();
 
@@ -13,8 +13,8 @@ function Cart() {
     if (!user) {
       navigate("/login");
     } else {
-      checkout(); // ✅ Save cart items to orders
-      navigate("/orders"); // ✅ Then go to orders page
+      checkout();
+      navigate("/orders"); 
     }
   };
 
