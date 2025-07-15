@@ -52,6 +52,9 @@ cd E-Commerce-Clone
 npm install
 npm run dev
 
+🌍 Live Demo
+https://e-commerce-clone-f69w-git-main-manyas-projects-0de017c3.vercel.app/
+
 🙋‍♀️ About Me
 This project is a part of my frontend learning journey. I tried to implement real e-commerce functionalities using React, Tailwind CSS, and Firebase.
 
