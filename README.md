@@ -46,7 +46,7 @@ You can sign up using your email and password. Firebase handles user authenticat
 
 ## 📦 Installation & Setup
 
-```bash
+
 (git clone https://github.com/ManyaS10/E-Commerce-Clone.git)
 cd E-Commerce-Clone
 npm install
