@@ -4,7 +4,7 @@ import { useState } from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import DarkMode from "../components/DarkMode"; 
 
-const categories = ["All", "Clothes", "Electronics", "Furnitures"];
+const categories = ["All", "Clothes", "Electronics", "Furniture"];
 
 function Header() {
   const { user } = useAuth();

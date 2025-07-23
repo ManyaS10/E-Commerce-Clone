@@ -5,7 +5,7 @@ import ProductCard from "../components/ProductCard";
 
 function Home() {
   const [products, setProducts] = useState([]);
-  const { categoryName } = useParams();
+  const { categoryName } = useParams(); // this gets slug like "electronics"
   const location = useLocation();
 
   const queryParams = new URLSearchParams(location.search);
@@ -18,7 +18,7 @@ function Home() {
       if (categoryName) {
         filtered = filtered.filter(
           (product) =>
-            product.category.name.toLowerCase() === categoryName.toLowerCase()
+            product.category?.slug?.toLowerCase() === categoryName.toLowerCase()
         );
       }
 

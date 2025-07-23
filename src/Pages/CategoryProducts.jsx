@@ -10,6 +10,8 @@ function CategoryProducts() {
   useEffect(() => {
     if (id === "all") {
       getProducts().then((res) => setProducts(res.data));
+       
+
     } else {
       getProductsByCategory(id).then((res) => setProducts(res.data));
     }

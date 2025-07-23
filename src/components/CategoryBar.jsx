@@ -4,7 +4,7 @@ const CATEGORIES = [
   { id: "all", label: "All", path: "/" },
   { id: 1, label: "Clothes", path: "/category/1" },
   { id: 2, label: "Electronics", path: "/category/2" },
-  { id: 3, label: "Furnitures", path: "/category/3" },
+  { id: 3, label: "Furniture", path: "/category/3" },
 ];
 
 function CategoryBar() {
