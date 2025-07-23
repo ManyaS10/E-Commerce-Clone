@@ -53,7 +53,7 @@ npm install
 npm run dev
 
 🌍 Live Demo
-https://e-commerce-clone-f69w-q8n9z4ykj-manyas-projects-0de017c3.vercel.app/
+https://e-commerce-clone-r5yc.vercel.app/
 
 
 🙋‍♀️ About Me
